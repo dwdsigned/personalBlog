@@ -93,6 +93,22 @@ main {
     margin: 5px;
 }
 
+figure {
+    margin: 0;
+}
+
+p {
+    color: black;
+}
+
+em {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
 .img6 {
     height:400px;
     width: 300px;

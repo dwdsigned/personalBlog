@@ -36,6 +36,16 @@ nav {
     
 }
 
+.button {
+    background-color: #FDF465;
+    border: solid .1px black;
+    border-radius: 25px;
+}
+
+h2 {
+    margin: 0;
+}
+
 /* .navbar li {
     color: white;
 } */
@@ -52,6 +62,10 @@ main {
 /* .list-nav {
     margin-left: 40%;
 } */
+
+figure {
+    margin: 0;
+}
 
 img {
     height: 300px;
