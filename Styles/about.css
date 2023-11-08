@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto ;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+
+.icon-logo {
+    width: 28px;
+    height: 28px;
+}
+
+header {
+    height:100px;
+    grid-column: 1/-1;
+}
+
+nav {
+    background-color: #340BB7;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+#blog-name {
+    margin-right: 70%;
+}
+
+footer {
+    grid-column: 1/-1;
+    grid-row-start: 3;
+    display: flex;
+    justify-content: center;
+    background-color: #340BB7;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+}
+
+/* .flex-containter {
+    grid-column: 4/7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+main {
+    grid-column: 3/7;
+}
+
+.top-form {
+    grid-column: 7/9;
+    /* border: solid black; */
+    height: fit-content;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 5px 3px 5px 3px rgba(0, 0, 0, .5);
+}
+
+.top-form * {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* .bottom-form {
+    border: .5px solid rgba(0, 0, 0, .5);
+} */
+
+#avatar {
+    width: 88px;
+    height: 89px;
+    border: 0;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+    justify-content: center;
+    grid-row-start: 2;
+}
+
+.bio p {
+    margin: 5px;
+}
+
+.img6 {
+    height:400px;
+    width: 300px;
+}
+
+.art-flex {
+    display: flex;
+}
+
+/* .art-txt {
+    text-align: right;
+} */
+
+/* .bottom-form {
+    float: clear;
+} */
+
+.bottom-form {
+    padding: 0 15px 15px 15px;
+    margin: 5px 5px 20px 0;
+    border: 1px solid blue;
+    width: fit-content;
+}
+
+.blog-hr {
+    margin-bottom: 60px;
+    padding: 0;
+    border: solid 1.5px blue;    
+}
+
+form h3 {
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 3px;
+    
+}
+h1 {
+    letter-spacing: 5px;
+    font-size: 5em;
+    text-decoration: underline;
+}
+
+.list-nav {
+    font-size: 2em;
+}
+
+h1, .btn, .list-nav {
+    font-family: 'Lilita One', cursive;
+    
+}
+
+body p, h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: #FDF465;
+}
+
+form {
+    background-color: #8749A9;
+}
+
+/* .white-txt {
+    color: white;
+} */
